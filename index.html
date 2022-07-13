@@ -6,10 +6,20 @@
     <title>Clock</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./public/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./public/style.css">
   </head>
   <body>
-    <div class="clock"></div>
+    <div class="clock
+    font-[VT323]  bg-[url('/public/bg.gif')] bg-no-repeat bg-cover">
+    <div class="flex font-extrabold text-6xl gap-10 w-[100%] h-[100vh] justify-center 
+    items-center bg-purple-400/30 backdrop-blur-[3px] text-black md:gap-10 md:text-8xl">
+      <div class="hours "></div>
+      <div class="minutes "></div>
+      <div class="seconds "></div>
+    </div>
+  </div>
     <script src="./app.js" async defer></script>
   </body>
 </html>
