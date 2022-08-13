@@ -1,4 +1,4 @@
-## Getting started
+## Getting started :
 - `git clone https://github.com/aimdexter/clock/`
 - `yarn` or `npm install`
 
